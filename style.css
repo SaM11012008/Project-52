@@ -1,0 +1,84 @@
+.header{
+    background-color:rgb(24, 9, 9);    
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    border: 2px solid #000000;
+    border-radius: 50px;
+
+}
+
+.bodyImg{
+    position: relative;
+
+}
+
+.bodyImg p{
+    color: #deb887;
+    font-size: 55px;
+    font-family: cursive;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color:#ff7f50;
+    width: 310px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-style:groove;
+    padding: 30px;
+    margin: 25px;
+}
+
+.origami:hover{
+
+    transform: scale(1.2);
+
+}
+
+.origami p{
+    position: absolute;
+    opacity: 0;
+}
+
+.origami:hover p{
+    opacity: 1;
+}
+
+h1,h2{
+    color:#deb887;
+}
+
+h3{
+    color: #000000
+}
+
+
+
+body{
+    background-color:#000000;
+    border: #000000
+}
+
+a:link{
+    color: #ffffff;
+}
+
+a:visited{
+    color:darkred;
+}
